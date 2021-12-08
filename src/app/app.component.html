@@ -1,0 +1,13 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+<h4>One Way binding</h4>
+<p>Welcome {{ firstname }} {{ lastname }} !</p>
+<h4>Two Way Binding</h4>
+<p>
+  <input type="text" name="country" [(ngModel)]="country" />
+</p>
+<h4>{{ country }}</h4>
+<h4>Property Binding</h4>
+<h5 [innerText]="title"></h5>
+<button (click)="clickMe()">Click Me</button>
+<h5>You pressed {{ count }}</h5>
